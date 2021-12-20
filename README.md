@@ -4,7 +4,7 @@ A kata on implementing addition using Roman numerals; shamelessly plagiarised fr
 
 The Roman system for counting used the letters I, V, X, L, C, D and M to represent the Arabic numeric values 1, 5, 10, 50, 100, 500 and 1,000 respectively.  Note 5 cannot be represented by IIIII, etc.
 
-The number 1 was represented by I, 2 by II, 3 by III.  But 4 was a special case represented by IV.  Likewise, 9 was represented by IX, 14 by XIV and 19 by XIX.  Similar combinations were used for 40 (XL), 90 (XC), 400 (CD) and 900 (CM).  Using this representation 499 and 999 are written as CDXCIX and CMXLIX respectively.
+The number 1 was represented by I, 2 by II, 3 by III.  But 4 was a special case represented by IV.  Likewise, 9 was represented by IX, 14 by XIV and 19 by XIX.  Similar combinations were used for 40 (XL), 90 (XC), 400 (CD) and 900 (CM).  Using this representation 499 and 949 are written as CDXCIX and CMXLIX respectively.
 
 Here are some other examples:
 
