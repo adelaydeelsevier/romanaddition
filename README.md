@@ -26,10 +26,10 @@ You may implement the program in a programming language of your choice, but Clau
 
 To get you started, here are some examples of Roman addition that Claudia has written down for you:
 
--- I + I = II
--- I + II = III
--- II + I = III
--- II + II = IV
+* I + I = II
+* I + II = III
+* II + I = III
+* II + II = IV
 -- III + I = IV
 -- IV + I = V
 -- III + II = V
