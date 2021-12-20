@@ -1,20 +1,19 @@
-A kata on implementing addition using Roman numerals; plagiarised from Woody Zuill...
+A kata on implementing addition using Roman numerals; shamelessly plagiarised from Woody Zuill...
 
 # Roman Addition
 
 The Roman system for counting used the letters I, V, X, L, C, D and M to represent the Arabic numeric values 1, 5, 10, 50, 100, 500 and 1,000 respectively.  Note 5 cannot be represented by IIIII, etc.
 
-The number 1 was represented by I, 2 by II, 3 by III.  But 4 was a special case represented by IV.  Likewise 9 was represented by IX, 14 XIV, 19 XIX.
-
-Similar combinations were used for 40 (XL), 90 (XC), 400 (CD) and 900 (CM).  Using this representation 499 and 999 are written as CDXCIX and CMXLIX respectively.
+The number 1 was represented by I, 2 by II, 3 by III.  But 4 was a special case represented by IV.  Likewise, 9 was represented by IX, 14 by XIV and 19 by XIX.  Similar combinations were used for 40 (XL), 90 (XC), 400 (CD) and 900 (CM).  Using this representation 499 and 999 are written as CDXCIX and CMXLIX respectively.
 
 Here are some other examples:
 
+```
 1990 -> "MCMXC" (1000 -> "M"  + 900 -> "CM" + 90 -> "XC")
 2008 -> "MMVIII" (2000 -> "MM" + 8 -> "VIII")
 99 -> "XCIX" (90 -> "XC" + 9 -> "IX")
 47 -> "XLVII" (40 -> "XL" + 7 -> "VII")
-
+```
 Your job, as mandated by Claudia Arithemeticus, the eminent Roman mathematician, is to write a program that can handle Roman addition.
 
 You may implement the program in a programming language of your choice, but Claudia has however set some constraints based on advice from the software engineer Robertus Martinus:
@@ -26,29 +25,32 @@ You may implement the program in a programming language of your choice, but Clau
 
 To get you started, here are some examples of Roman addition that Claudia has written down for you:
 
-* I + I = II
-* I + II = III
-* II + I = III
-* II + II = IV
--- III + I = IV
--- IV + I = V
--- III + II = V
--- III + III = VI
--- I + VI = VII
--- VI + II = VIII
--- VI + III = IX
--- VIII + I = IX
--- IV + V = IX
--- V + V = X
--- VI + VI = XII
--- X + X = XX
--- XLV + V = L
--- XXXV + V = XL
--- XXXV + VI = XLI
--- XXV + XXV = L
+```
+I + I = II
+I + II = III
+II + I = III
+II + II = IV
+III + I = IV
+IV + I = V
+III + II = V
+III + III = VI
+I + VI = VII
+VI + II = VIII
+VI + III = IX
+VIII + I = IX
+IV + V = IX
+V + V = X
+VI + VI = XII
+X + X = XX
+XLV + V = L
+XXXV + V = XL
+XXXV + VI = XLI
+XXV + XXV = L
+```
 
 Finally, a more extensive list of digits follows:
 
+```
 "I" -> 1
 "II" -> 2
 "III" -> 3
@@ -83,5 +85,5 @@ Finally, a more extensive list of digits follows:
 "MM" -> 2000
 "MMM" -> 3000
 "MMMM" -> 4000
-
+```
      
